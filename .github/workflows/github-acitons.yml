@@ -1,9 +1,9 @@
-name : github-actions-test
-run-name : ${{ github.actor }} is testing github actions 
-on : push
-jobs :
-	check-node-version :
-		runs-on : ubuntu-latest
-		steps	:
-			- runs : node --version
-			- runs : npm --version
+name: github-actions-test
+run-name: ${{ github.actor }} is testing github actions
+on: push
+jobs:
+  check-node-version:
+    runs-on: ubuntu-latest
+    steps:
+      - run: node --version
+      - run: npm --version
