@@ -1,4 +1,4 @@
-## Learning GitHub Work-flows
+## Learning GitHub Workflows
 * It is the fastest way for integrating CI/CD pipelines for your projects.
 * Referring to [Understanding Github Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
 * Helps automating build, test, and deployment pipelines.
